@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V2G Energy Optimization System</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1e7eff" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'grid-blue': {
+                '50': '#f0f8ff',
+                '100': '#e0f1ff',
+                '200': '#c2e5ff',
+                '300': '#94d5ff',
+                '400': '#61bfff',
+                '500': '#3b9eff',
+                '600': '#1e7eff',
+                '700': '#1565ff',
+                '800': '#1952d7',
+                '900': '#1a448c',
+                '950': '#122c5a',
+              },
+              'grid-green': {
+                '50': '#f2fbf6',
+                '100': '#e2f6ea',
+                '200': '#c7ebd6',
+                '300': '#a2dbba',
+                '400': '#76c899',
+                '500': '#52b27a',
+                '600': '#3e9961',
+                '700': '#31784d',
+                '800': '#2b6041',
+                '900': '#244e36',
+                '950': '#122b1d',
+              },
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-grid-blue-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

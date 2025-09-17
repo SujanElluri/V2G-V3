@@ -1,0 +1,5 @@
+{
+  "name": "Copy of V2G Energy Optimization System",
+  "description": "A web application for a Vehicle-to-Grid (V2G) system that allows customers to book charging slots, monitor their EV's status and savings, while providing an admin dashboard to manage and analyze grid load optimization. Includes an AI-powered daily summary feature for administrators.",
+  "requestFramePermissions": []
+}
